@@ -13,7 +13,11 @@ terraform init
 terraform plan
 terraform apply
 ```
-
+SSH to VM:
+----------
+```
+ssh -i /home/sakhtar/.ssh/id_rsa.pub `terraform output ip`
+```
 Destroy:
 --------
 ```
