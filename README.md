@@ -5,6 +5,8 @@ Requirement:
 ------------ 
 
 terrform version : v0.12.23
+Service-Account on gcp
+Project on gcp
 
 How to use
 ----------
