@@ -3,10 +3,10 @@ Terraform-with-GCP
 
 Requirement:
 ------------ 
-
-terrform version : v0.12.23
-Service-Account on gcp
-Project on gcp
+- terrform version : v0.12.23
+- Service-Account on gcp
+- Projectid on gcp
+- `service-account.json` file
 
 How to use
 ----------
