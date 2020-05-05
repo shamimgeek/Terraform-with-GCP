@@ -1,0 +1,13 @@
+cat > /etc/systemd/system/webapp.service <<EOF
+
+[Unit]
+Description=Start the webapp
+
+[Service]
+Restart=on-failure
+WorkingDirectory=/projects/webapp
+ExecStart=/usr/bin/go run main.go
+
+[Install]
+WantedBy=multi-user.target
+EOF
