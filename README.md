@@ -6,6 +6,7 @@ Requirement:
 - terrform version : v0.12.23
 - Service-Account on gcp
 - Projectid on gcp
+- SSH public key
 - `service-account.json` file
 
 How to use
