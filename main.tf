@@ -31,8 +31,8 @@ resource "google_compute_instance" "vm_instance" {
     }
   }
 
-  // Make sure golang is installed on all new instances for later steps
-  metadata_startup_script = "sudo apt-get update; sudo apt-get install -yq golang"
+  // Startup script for vm instance
+  metadata_startup_script = file("startup.sh")
 
   network_interface {
     # A default network is created for all GCP projects
