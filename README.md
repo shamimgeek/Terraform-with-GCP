@@ -21,6 +21,7 @@ SSH to VM:
 ssh -i /home/sakhtar/.ssh/id_rsa.pub `terraform output ip`
 ```
 Test the application
+--------------------
 ```
 curl http://<IP of your VM>
 Hello from Google Cloud !!!
